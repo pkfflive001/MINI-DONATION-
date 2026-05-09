@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support Us - Mini Donation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.1);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .number {
+      font-size: 2.2em;
+      font-weight: bold;
+      background: white;
+      color: #333;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 20px 0;
+      letter-spacing: 2px;
+    }
+    button {
+      background: #ffcc00;
+      color: black;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 50px;
+      cursor: pointer;
+      margin: 10px;
+    }
+    button:hover {
+      background: #ffd633;
+      transform: scale(1.05);
+    }
+    .steps {
+      text-align: left;
+      max-width: 400px;
+      margin: 30px auto;
+      background: rgba(0,0,0,0.2);
+      padding: 20px;
+      border-radius: 15px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Help Us With Mini Donation</h1>
+    <p style="font-size:1.3em;">Your small contribution means a lot ❤️</p>
+
+    <div class="number">
+      0324-5150474
+    </div>
+
+    <button onclick="copyNumber()">📋 Copy Number</button>
+    <button onclick="window.location.href='https://wa.me/?text=I%20want%20to%20send%20mini%20donation%20to%2003245150474'">📲 Share on WhatsApp</button>
+
+    <div class="steps">
+      <h2>How to Send Money:</h2>
+      <ol>
+        <li>Open JazzCash App or Dial <strong>*786#</strong></li>
+        <li>Select <strong>Send Money → To Mobile Account</strong></li>
+        <li>Enter Number: <strong>03245150474</strong></li>
+        <li>Enter any amount you want</li>
+        <li>Confirm with MPIN</li>
+      </ol>
+    </div>
+
+    <p style="font-size:1.4em; margin:25px 0;">Thank You Very Much! 🙏</p>
+  </div>
+
+  <footer>
+    Made with ❤️ for good cause
+  </footer>
+
+  <script>
+    function copyNumber() {
+      navigator.clipboard.writeText("03245150474");
+      alert("✅ Number Copied: 03245150474");
+    }
+  </script>
+</body>
+</html>
